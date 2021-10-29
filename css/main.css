@@ -2240,6 +2240,36 @@ html[data-direction="up"] .c-choochoo_item.-reverse span {
   }
 }
 
+@media (min-width: 699px) {
+  .c-title {
+    font-size: 70px;
+    font-weight: 800;
+  }
+}
+@media (max-width: 700px) {
+  .c-title {
+    font-size: 50px;
+    font-weight: 700;
+  }
+}
+
+.c-info {
+  margin-left: 1rem;
+}
+
+@media (min-width: 699px) {
+  .c-info {
+    font-size: 42px;
+    font-weight: 700;
+  }
+}
+@media (max-width: 700px) {
+  .c-info {
+    font-size: 30px;
+    font-weight: 600;
+  }
+}
+
 /*
  * Extends the `.screen-reader-text` class to allow the element
  * to be focusable when navigated to via the keyboard.
